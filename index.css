@@ -35,16 +35,6 @@ h1 {
   font-size: 1.7em;
   text-align: right;
 }
-h1:after {
-  bottom: -100%;
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 100%;
-  transform: translateY(10px);
-  z-index: -1;
-}
 @media screen and (max-width: 500px) {
   h1 {
     text-align: left;
@@ -99,6 +89,11 @@ h3 {
     font-size: .9em;
   }
 }
+@media print {
+  .skills .list {
+    font-size: .8em;
+  }
+}
 .skills .list li {
   margin: 0;
   padding: 0 0 0 0;
@@ -115,19 +110,20 @@ h3 {
 @media print {
   .skills .list li {
     padding-right: 0.15em;
+    line-height: 1;
   }
 }
 .skills .list li.a {
-  font-size: 140%;
+  font-size: 130%;
 }
 .skills .list li.b {
-  font-size: 120%;
+  font-size: 110%;
 }
 .skills .list li:hover {
   color: red;
 }
 article section {
-  page-break-inside: auto;
+  page-break-inside: avoid;
 }
 article section:not(:first-of-type) {
   margin-top: 4ex;
@@ -137,9 +133,7 @@ article section:not(:first-of-type) {
     margin-top: 4ex;
   }
 }
-article section .experience:nth-child(4) {
-  page-break-inside: avoid;
-}
+
 article section.activities {
   page-break-inside: avoid;
 }
