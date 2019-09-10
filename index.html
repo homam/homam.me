@@ -1,11 +1,11 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <link rel="shortcut icon" href="/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#000000">
-  <meta name="description" content="Web site created using create-react-app">
+  <meta name="description" content="Homam Hosseini">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/manifest.json">
   <title>Homam Hosseini</title>
@@ -301,181 +301,70 @@
 <body>
   <div id="root">
     <main>
-      <div class="container sky">
+      <aside>
         <div class="my-photo"></div>
-        <div class="links"><a rel="noopener noreferrer" href="https://sam-media.com" title="Sam Media: my company"
-            class="sam-media" target="_blank"><img alt="Sam Media"
-              src="data:image/png;base64,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"><span>Sam
-              Media</span></a><a rel="noopener noreferrer" target="_blank" title="My LinkedIn profile"
-            href="https://www.linkedin.com/in/homamhosseini/"><img alt="Linked In" class="linked-in"
-              src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW4gaWNvbjwvdGl0bGU+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8+PC9zdmc+"><span>LinkedIn</span></a><a
-            rel="noopener noreferrer" target="_blank" title="My LinkedIn profile" href="https://github.com/homam"><img
-              alt="Github" class="github"
-              src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViIGljb248L3RpdGxlPjxwYXRoIGQ9Ik0xMiAuMjk3Yy02LjYzIDAtMTIgNS4zNzMtMTIgMTIgMCA1LjMwMyAzLjQzOCA5LjggOC4yMDUgMTEuMzg1LjYuMTEzLjgyLS4yNTguODItLjU3NyAwLS4yODUtLjAxLTEuMDQtLjAxNS0yLjA0LTMuMzM4LjcyNC00LjA0Mi0xLjYxLTQuMDQyLTEuNjFDNC40MjIgMTguMDcgMy42MzMgMTcuNyAzLjYzMyAxNy43Yy0xLjA4Ny0uNzQ0LjA4NC0uNzI5LjA4NC0uNzI5IDEuMjA1LjA4NCAxLjgzOCAxLjIzNiAxLjgzOCAxLjIzNiAxLjA3IDEuODM1IDIuODA5IDEuMzA1IDMuNDk1Ljk5OC4xMDgtLjc3Ni40MTctMS4zMDUuNzYtMS42MDUtMi42NjUtLjMtNS40NjYtMS4zMzItNS40NjYtNS45MyAwLTEuMzEuNDY1LTIuMzggMS4yMzUtMy4yMi0uMTM1LS4zMDMtLjU0LTEuNTIzLjEwNS0zLjE3NiAwIDAgMS4wMDUtLjMyMiAzLjMgMS4yMy45Ni0uMjY3IDEuOTgtLjM5OSAzLS40MDUgMS4wMi4wMDYgMi4wNC4xMzggMyAuNDA1IDIuMjgtMS41NTIgMy4yODUtMS4yMyAzLjI4NS0xLjIzLjY0NSAxLjY1My4yNCAyLjg3My4xMiAzLjE3Ni43NjUuODQgMS4yMyAxLjkxIDEuMjMgMy4yMiAwIDQuNjEtMi44MDUgNS42MjUtNS40NzUgNS45Mi40Mi4zNi44MSAxLjA5Ni44MSAyLjIyIDAgMS42MDYtLjAxNSAyLjg5Ni0uMDE1IDMuMjg2IDAgLjMxNS4yMS42OS44MjUuNTdDMjAuNTY1IDIyLjA5MiAyNCAxNy41OTIgMjQgMTIuMjk3YzAtNi42MjctNS4zNzMtMTItMTItMTIiLz48L3N2Zz4="><span>Github</span></a><a
-            rel="noopener noreferrer" target="_blank" title="Medium blog" href="https://medium.com/@homam"><img
-              alt="Medium" class="medium"
-              src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWVkaXVtIGljb248L3RpdGxlPjxwYXRoIGQ9Ik0wIDB2MjRoMjRWMEgwem0xOS45MzggNS42ODZMMTguNjUxIDYuOTJhLjM3Ni4zNzYgMCAwIDAtLjE0My4zNjJ2OS4wNjdhLjM3Ni4zNzYgMCAwIDAgLjE0My4zNjFsMS4yNTcgMS4yMzR2LjI3MWgtNi4zMjJ2LS4yN2wxLjMwMi0xLjI2NWMuMTI4LS4xMjguMTI4LS4xNjUuMTI4LS4zNlY4Ljk5bC0zLjYyIDkuMTk1aC0uNDlMNi42OSA4Ljk5djYuMTYzYS44NS44NSAwIDAgMCAuMjMzLjcwN2wxLjY5NCAyLjA1NHYuMjcxSDMuODE1di0uMjdMNS41MSAxNS44NmEuODIuODIgMCAwIDAgLjIxOC0uNzA3VjguMDI3YS42MjQuNjI0IDAgMCAwLS4yMDMtLjUyN0w0LjAxOSA1LjY4NnYtLjI3aDQuNjc0bDMuNjEzIDcuOTIzIDMuMTc2LTcuOTI0aDQuNDU2di4yNzF6Ii8+PC9zdmc+"><span>Medium
-              Posts</span></a><a rel="noopener noreferrer" target="_blank" title="Dev.to blog"
-            href="https://dev.to/homam"><img alt="Dev.to" class="dev-dot-to"
-              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgcm9sZT0iaW1nIj48dGl0bGU+ZGV2LnRvIGljb248L3RpdGxlPjxwYXRoIGQ9Ik03LjQyIDEwLjA1Yy0uMTgtLjE2LS40Ni0uMjMtLjg0LS4yM0g2bC4wMiAyLjQ0LjA0IDIuNDUuNTYtLjAyYy40MSAwIC42My0uMDcuODMtLjI2LjI0LS4yNC4yNi0uMzYuMjYtMi4yIDAtMS45MS0uMDItMS45Ni0uMjktMi4xOHpNMCA0Ljk0djE0LjEyaDI0VjQuOTRIMHpNOC41NiAxNS4zYy0uNDQuNTgtMS4wNi43Ny0yLjUzLjc3SDQuNzFWOC41M2gxLjRjMS42NyAwIDIuMTYuMTggMi42LjkuMjcuNDMuMjkuNi4zMiAyLjU3LjA1IDIuMjMtLjAyIDIuNzMtLjQ3IDMuM3ptNS4wOS01LjQ3aC0yLjQ3djEuNzdoMS41MnYxLjI4bC0uNzIuMDQtLjc1LjAzdjEuNzdsMS4yMi4wMyAxLjIuMDR2MS4yOGgtMS42Yy0xLjUzIDAtMS42LS4wMS0xLjg3LS4zbC0uMy0uMjh2LTMuMTZjMC0zLjAyLjAxLTMuMTguMjUtMy40OC4yMy0uMzEuMjUtLjMxIDEuODgtLjMxaDEuNjR2MS4zem00LjY4IDUuNDVjLS4xNy40My0uNjQuNzktMSAuNzktLjE4IDAtLjQ1LS4xNS0uNjctLjM5LS4zMi0uMzItLjQ1LS42My0uODItMi4wOGwtLjktMy4zOS0uNDUtMS42N2guNzZjLjQgMCAuNzUuMDIuNzUuMDUgMCAuMDYgMS4xNiA0LjU0IDEuMjYgNC44My4wNC4xNS4zMi0uNy43My0yLjNsLjY2LTIuNTIuNzQtLjA0Yy40LS4wMi43MyAwIC43My4wNCAwIC4xNC0xLjY3IDYuMzgtMS44IDYuNjh6Ii8+PC9zdmc+"><span>Dev.to
-              Posts</span></a><a rel="noopener noreferrer" target="_blank" title="Twitter"
-            href="https://twitter.com/@homam"><img alt="Twitter" class="twitter"
-              src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VHdpdHRlciBpY29uPC90aXRsZT48cGF0aCBkPSJNMjMuOTU0IDQuNTY5Yy0uODg1LjM4OS0xLjgzLjY1NC0yLjgyNS43NzUgMS4wMTQtLjYxMSAxLjc5NC0xLjU3NCAyLjE2My0yLjcyMy0uOTUxLjU1NS0yLjAwNS45NTktMy4xMjcgMS4xODQtLjg5Ni0uOTU5LTIuMTczLTEuNTU5LTMuNTkxLTEuNTU5LTIuNzE3IDAtNC45MiAyLjIwMy00LjkyIDQuOTE3IDAgLjM5LjA0NS43NjUuMTI3IDEuMTI0QzcuNjkxIDguMDk0IDQuMDY2IDYuMTMgMS42NCAzLjE2MWMtLjQyNy43MjItLjY2NiAxLjU2MS0uNjY2IDIuNDc1IDAgMS43MS44NyAzLjIxMyAyLjE4OCA0LjA5Ni0uODA3LS4wMjYtMS41NjYtLjI0OC0yLjIyOC0uNjE2di4wNjFjMCAyLjM4NSAxLjY5MyA0LjM3NCAzLjk0NiA0LjgyNy0uNDEzLjExMS0uODQ5LjE3MS0xLjI5Ni4xNzEtLjMxNCAwLS42MTUtLjAzLS45MTYtLjA4Ni42MzEgMS45NTMgMi40NDUgMy4zNzcgNC42MDQgMy40MTctMS42OCAxLjMxOS0zLjgwOSAyLjEwNS02LjEwMiAyLjEwNS0uMzkgMC0uNzc5LS4wMjMtMS4xNy0uMDY3IDIuMTg5IDEuMzk0IDQuNzY4IDIuMjA5IDcuNTU3IDIuMjA5IDkuMDU0IDAgMTMuOTk5LTcuNDk2IDEzLjk5OS0xMy45ODYgMC0uMjA5IDAtLjQyLS4wMTUtLjYzLjk2MS0uNjg5IDEuOC0xLjU2IDIuNDYtMi41NDhsLS4wNDctLjAyeiIvPjwvc3ZnPg=="><span>@homam</span></a>
-        </div>
-      </div>
-      <h1>Homam Hosseini</h1>
-      <article>
-        <p>Leading diverse teams of developers, creative artists and internet marketing experts in all phases of product
-          development from conceptualization to sale.</p>
-        <p>Experienced in mobile Value Added Services, micropayment, e-learning and casual games. I make data centric
-          internet applications, run online campaigns, examine, develop and optimize for KPIs.</p>
-        <p>I have hands-on experience in data-driven decision making, predictive modeling, data analysis and
-          visualization, big data and functional programming.</p>
-      </article>
-      <ul class="skills list">
-        <li class="b">AWS</li>
-        <li class="b">Big Data</li>
-        <li class="a">C#</li>
-        <li class="a">Casual Games</li>
-        <li class="a">d3</li>
-        <li class="a">Data Visualization</li>
-        <li class="b">Distributed Systems</li>
-        <li class="a">Git</li>
-        <li class="b">Haskell</li>
-        <li class="a">JavaScript</li>
-        <li class="b">Machine Learning</li>
-        <li class="c">Mathematica</li>
-        <li class="a">Node.js</li>
-        <li class="a">Mobile Value Added Services</li>
-        <li class="a">NoSQL</li>
-        <li class="b">Objective-C</li>
-        <li class="a">PureScript</li>
-        <li class="c">R</li>
-        <li class="a">React</li>
-        <li class="b">Simulations</li>
-        <li class="a">SOA</li>
-        <li class="a">SQL</li>
-      </ul>
-      <article>
-        <h2>Director of Innovation at Sam Media</h2>
-        <section class="duration">Amsterdam <time datetime="2016-12">Dec. 2016</time> onward</section>
-        <details open="">
-          <summary>I led and restructure many functions in Sam Media, realized new opportunities and expanded our profit
-            margin from existing and new markets.</summary>
-          <ul>
-            <li>Increased gross margin from 20% to 65% in a span of six month while maintaining 4% continuous monthly
-              growth in revenue by drafting and implementing an ROI optimization method. This is currently the company's
-              best results and the longest growth stream in recent years.</li>
-            <li>Reorganized the company by introducing Business Development and Data Science roles and automated and
-              eliminated redundant operational positions.</li>
-            <li>Oversaw the creation of a diverse and innovative product portfolio including a mix of standard, premium
-              and over-the-top products, focussing on differentiation and product usage. Including: <a
-                rel="noopener noreferrer" target="_blank" href="https://game-lords.com/">Game Lords</a>, <a
-                rel="noopener noreferrer" target="_blank" href="https://mobio360.com/">Mobio360</a>, <a
-                rel="noopener noreferrer" target="_blank" href="https://mobiotv.com/">MobioTV</a>, <a
-                rel="noopener noreferrer" target="_blank" href="https://striker-live.com/">Striker</a> and <a
-                rel="noopener noreferrer" target="_blank" href="https://beyond-vr.com/">Beyond VR</a>.</li>
-            <li>Developed an internal multi-dimensional data analysis tool that is being utilized every minute of the
-              day by the team members to study and optimize campaigns in real-time.</li>
-          </ul>
-        </details>
-      </article>
-      <article>
-        <h2>Data Engineer at Suitsupply</h2>
-        <section class="duration">Amsterdam <time datetime="2016-05">May 2016</time> to <time datetime="2016-11">Nov.
-            2016</time> </section>
-        <details open="">
-          <summary>I created models for predicting customer retention patterns to improve the rate and the experinece of
-            omnichannel customers.</summary>
-          <ul>
-            <li>Classified stores and customer segments by value generated over time, which is used in increasing the
-              engagement rates of personalized and precisely timed newsletters.</li>
-            <li>Developed a program for synchronizing live feeds on in-store screens around the world.</li>
-          </ul>
-        </details>
-      </article>
-      <article>
-        <h2>Director of Products at Mobitrans at Mobitrans</h2>
-        <section class="duration">Dubai <time datetime="2010-04">Apr. 2010</time> to <time datetime="2016-05">May
-            2016</time> </section>
-        <details open="">
-          <summary>I was the lead of a very talented team of developers, designers and content editors. I was
-            responsible for extending the company's portfolio by creating and marketing new products and services and
-            driving sales by inventing new advertising methods and optimizing sale funnels.</summary>
-          <ul>
-            <li>Created various products: online HTML5 games portal: <a rel="noopener noreferrer" target="_blank"
-                href="https://vipgames.me/">VIPgames</a>, language learning app supporting 8 languages: <a
-                rel="noopener noreferrer" target="_blank" href="https://babelbay.com/">Babelbay</a>, brain training: <a
-                rel="noopener noreferrer" target="_blank" href="https://brain2train.com/">Brain2train</a>, online
-              learning app: <a rel="noopener noreferrer" target="_blank" href="https://mobileacademy.com/">Mobile
-                Academy</a>. My team designed, sourced the material and coded these products in house.</li>
-            <li>Developed new sale channels, enhanced our micro payment offerings by improving the user experience and
-              performance of customer acquisition funnels. Flow optimizations alone resulted in hundreds of new sales
-              every day from <a rel="noopener noreferrer" target="_blank"
-                href="https://i.imgur.com/cl4dpqA.png">non-converting</a> traffic and 15% more sales overall.</li>
-            <li>Designed models for predicting users' behavior, detecting malicious traffic and optimizing campaigns by
-              maximizing profitability.</li>
-            <li>Directed the development of a Real-time bidding <a rel="noopener noreferrer" target="_blank"
-                href="https://i.imgur.com/Uoj3lcF.png">tag server</a> displaying targeted ads to a few hundred thousand
-              visitors every hour. Our innovative interstitial ads boosted our sales numbers across many markets.</li>
-          </ul>
-        </details>
-      </article>
-      <article>
-        <h2>Director of Product Development at RENA</h2>
-        <section class="duration">Dubai <time datetime="2007-05">May 2007</time> to <time datetime="2010-04">Apr.
-            2010</time> </section>
-        <details open="">
-          <summary>As a founders I was responsible for product development. I developed RENA's award winning product:
-            Hyzonia: a tool for creating on-demand, customizable Massively Multiplayer Games with built-in product
-            placement advertising features; assisted in drafting the business plan, and delivered sales and investment
-            pitches.</summary>
-          <ul>
-            <li>Developed a real-time cross browser interface for live users interaction, and programmed a software for
-              simulating the economy of the virtual worlds.</li>
-            <li>Contributed to the development of UI, UX and VFX of the games in JavaScript and Flash.</li>
-          </ul>
-        </details>
-      </article>
-      <article>
-        <h2>Associate Editor at Nojum Magazine</h2>
-        <section class="duration">Tehran <time datetime="2001">2001</time> to <time datetime="2008">2008</time>
+        <section class="stack">
+          <div class="links"><a rel="noopener noreferrer" href="https://sam-media.com" title="Sam Media: my company"
+              class="sam-media" target="_blank"><img alt="Sam Media"
+                src="data:image/png;base64,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"><span>Sam
+                Media</span></a><a rel="noopener noreferrer" target="_blank" title="My LinkedIn profile"
+              href="https://www.linkedin.com/in/homamhosseini/"><img alt="Linked In" class="linked-in"
+                src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW4gaWNvbjwvdGl0bGU+PHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8+PC9zdmc+"><span>LinkedIn</span></a><a
+              rel="noopener noreferrer" target="_blank" title="My LinkedIn profile" href="https://github.com/homam"><img
+                alt="Github" class="github"
+                src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViIGljb248L3RpdGxlPjxwYXRoIGQ9Ik0xMiAuMjk3Yy02LjYzIDAtMTIgNS4zNzMtMTIgMTIgMCA1LjMwMyAzLjQzOCA5LjggOC4yMDUgMTEuMzg1LjYuMTEzLjgyLS4yNTguODItLjU3NyAwLS4yODUtLjAxLTEuMDQtLjAxNS0yLjA0LTMuMzM4LjcyNC00LjA0Mi0xLjYxLTQuMDQyLTEuNjFDNC40MjIgMTguMDcgMy42MzMgMTcuNyAzLjYzMyAxNy43Yy0xLjA4Ny0uNzQ0LjA4NC0uNzI5LjA4NC0uNzI5IDEuMjA1LjA4NCAxLjgzOCAxLjIzNiAxLjgzOCAxLjIzNiAxLjA3IDEuODM1IDIuODA5IDEuMzA1IDMuNDk1Ljk5OC4xMDgtLjc3Ni40MTctMS4zMDUuNzYtMS42MDUtMi42NjUtLjMtNS40NjYtMS4zMzItNS40NjYtNS45MyAwLTEuMzEuNDY1LTIuMzggMS4yMzUtMy4yMi0uMTM1LS4zMDMtLjU0LTEuNTIzLjEwNS0zLjE3NiAwIDAgMS4wMDUtLjMyMiAzLjMgMS4yMy45Ni0uMjY3IDEuOTgtLjM5OSAzLS40MDUgMS4wMi4wMDYgMi4wNC4xMzggMyAuNDA1IDIuMjgtMS41NTIgMy4yODUtMS4yMyAzLjI4NS0xLjIzLjY0NSAxLjY1My4yNCAyLjg3My4xMiAzLjE3Ni43NjUuODQgMS4yMyAxLjkxIDEuMjMgMy4yMiAwIDQuNjEtMi44MDUgNS42MjUtNS40NzUgNS45Mi40Mi4zNi44MSAxLjA5Ni44MSAyLjIyIDAgMS42MDYtLjAxNSAyLjg5Ni0uMDE1IDMuMjg2IDAgLjMxNS4yMS42OS44MjUuNTdDMjAuNTY1IDIyLjA5MiAyNCAxNy41OTIgMjQgMTIuMjk3YzAtNi42MjctNS4zNzMtMTItMTItMTIiLz48L3N2Zz4="><span>Github</span></a><a
+              rel="noopener noreferrer" target="_blank" title="Medium blog" href="https://medium.com/@homam"><img
+                alt="Medium" class="medium"
+                src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWVkaXVtIGljb248L3RpdGxlPjxwYXRoIGQ9Ik0wIDB2MjRoMjRWMEgwem0xOS45MzggNS42ODZMMTguNjUxIDYuOTJhLjM3Ni4zNzYgMCAwIDAtLjE0My4zNjJ2OS4wNjdhLjM3Ni4zNzYgMCAwIDAgLjE0My4zNjFsMS4yNTcgMS4yMzR2LjI3MWgtNi4zMjJ2LS4yN2wxLjMwMi0xLjI2NWMuMTI4LS4xMjguMTI4LS4xNjUuMTI4LS4zNlY4Ljk5bC0zLjYyIDkuMTk1aC0uNDlMNi42OSA4Ljk5djYuMTYzYS44NS44NSAwIDAgMCAuMjMzLjcwN2wxLjY5NCAyLjA1NHYuMjcxSDMuODE1di0uMjdMNS41MSAxNS44NmEuODIuODIgMCAwIDAgLjIxOC0uNzA3VjguMDI3YS42MjQuNjI0IDAgMCAwLS4yMDMtLjUyN0w0LjAxOSA1LjY4NnYtLjI3aDQuNjc0bDMuNjEzIDcuOTIzIDMuMTc2LTcuOTI0aDQuNDU2di4yNzF6Ii8+PC9zdmc+"><span>Medium
+                Posts</span></a><a rel="noopener noreferrer" target="_blank" title="Dev.to blog"
+              href="https://dev.to/homam"><img alt="Dev.to" class="dev-dot-to"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgcm9sZT0iaW1nIj48dGl0bGU+ZGV2LnRvIGljb248L3RpdGxlPjxwYXRoIGQ9Ik03LjQyIDEwLjA1Yy0uMTgtLjE2LS40Ni0uMjMtLjg0LS4yM0g2bC4wMiAyLjQ0LjA0IDIuNDUuNTYtLjAyYy40MSAwIC42My0uMDcuODMtLjI2LjI0LS4yNC4yNi0uMzYuMjYtMi4yIDAtMS45MS0uMDItMS45Ni0uMjktMi4xOHpNMCA0Ljk0djE0LjEyaDI0VjQuOTRIMHpNOC41NiAxNS4zYy0uNDQuNTgtMS4wNi43Ny0yLjUzLjc3SDQuNzFWOC41M2gxLjRjMS42NyAwIDIuMTYuMTggMi42LjkuMjcuNDMuMjkuNi4zMiAyLjU3LjA1IDIuMjMtLjAyIDIuNzMtLjQ3IDMuM3ptNS4wOS01LjQ3aC0yLjQ3djEuNzdoMS41MnYxLjI4bC0uNzIuMDQtLjc1LjAzdjEuNzdsMS4yMi4wMyAxLjIuMDR2MS4yOGgtMS42Yy0xLjUzIDAtMS42LS4wMS0xLjg3LS4zbC0uMy0uMjh2LTMuMTZjMC0zLjAyLjAxLTMuMTguMjUtMy40OC4yMy0uMzEuMjUtLjMxIDEuODgtLjMxaDEuNjR2MS4zem00LjY4IDUuNDVjLS4xNy40My0uNjQuNzktMSAuNzktLjE4IDAtLjQ1LS4xNS0uNjctLjM5LS4zMi0uMzItLjQ1LS42My0uODItMi4wOGwtLjktMy4zOS0uNDUtMS42N2guNzZjLjQgMCAuNzUuMDIuNzUuMDUgMCAuMDYgMS4xNiA0LjU0IDEuMjYgNC44My4wNC4xNS4zMi0uNy43My0yLjNsLjY2LTIuNTIuNzQtLjA0Yy40LS4wMi43MyAwIC43My4wNCAwIC4xNC0xLjY3IDYuMzgtMS44IDYuNjh6Ii8+PC9zdmc+"><span>Dev.to
+                Posts</span></a><a rel="noopener noreferrer" target="_blank" title="Twitter"
+              href="https://twitter.com/@homam"><img alt="Twitter" class="twitter"
+                src="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VHdpdHRlciBpY29uPC90aXRsZT48cGF0aCBkPSJNMjMuOTU0IDQuNTY5Yy0uODg1LjM4OS0xLjgzLjY1NC0yLjgyNS43NzUgMS4wMTQtLjYxMSAxLjc5NC0xLjU3NCAyLjE2My0yLjcyMy0uOTUxLjU1NS0yLjAwNS45NTktMy4xMjcgMS4xODQtLjg5Ni0uOTU5LTIuMTczLTEuNTU5LTMuNTkxLTEuNTU5LTIuNzE3IDAtNC45MiAyLjIwMy00LjkyIDQuOTE3IDAgLjM5LjA0NS43NjUuMTI3IDEuMTI0QzcuNjkxIDguMDk0IDQuMDY2IDYuMTMgMS42NCAzLjE2MWMtLjQyNy43MjItLjY2NiAxLjU2MS0uNjY2IDIuNDc1IDAgMS43MS44NyAzLjIxMyAyLjE4OCA0LjA5Ni0uODA3LS4wMjYtMS41NjYtLjI0OC0yLjIyOC0uNjE2di4wNjFjMCAyLjM4NSAxLjY5MyA0LjM3NCAzLjk0NiA0LjgyNy0uNDEzLjExMS0uODQ5LjE3MS0xLjI5Ni4xNzEtLjMxNCAwLS42MTUtLjAzLS45MTYtLjA4Ni42MzEgMS45NTMgMi40NDUgMy4zNzcgNC42MDQgMy40MTctMS42OCAxLjMxOS0zLjgwOSAyLjEwNS02LjEwMiAyLjEwNS0uMzkgMC0uNzc5LS4wMjMtMS4xNy0uMDY3IDIuMTg5IDEuMzk0IDQuNzY4IDIuMjA5IDcuNTU3IDIuMjA5IDkuMDU0IDAgMTMuOTk5LTcuNDk2IDEzLjk5OS0xMy45ODYgMC0uMjA5IDAtLjQyLS4wMTUtLjYzLjk2MS0uNjg5IDEuOC0xLjU2IDIuNDYtMi41NDhsLS4wNDctLjAyeiIvPjwvc3ZnPg=="><span>@homam</span></a>
+          </div><a href="/cv">My CV</a>
         </section>
-        <details open="">
-          <summary>I had a monthy column and also translated and authored articles since I was a high school student. I
-            also organized webcasting of astronomical events with tens of thousands of live online viewers, prgorammzed
-            GIS data visualization for projecting asteroid occultation graze maps; developed an online planetarium sky
-            map using cross browser vector graphics back in 2003.</summary>
-        </details>
-      </article>
-      <article>
-        <h2>Education</h2>
-        <details open="">
-          <summary>B.Sc. in Physics from Azad University of Tehran <time datetime="2007">2007</time></summary>
-          <ul>
-            <li>Random Walk, Monte Carlo Simulation in Mathematica and C# with application in robotics and the study of
-              Brownian motion.</li>
-            <li>A precise Persian Calendar <a rel="noopener noreferrer" target="_blank"
-                href="https://www.codeproject.com/Articles/13465/Jalali-Calendar">implementation</a> suitable for
-              historical date conversions.</li>
-            <li>Honored with Azad University Young Researcher Award, 2006</li>
-            <li>Speaker in astronomy seminars, including a series of <a rel="noopener noreferrer" target="_blank"
-                href="https://www.slideshare.net/homam">weekly lectures</a> on astrophysics in my university.</li>
-          </ul>
-        </details>
-      </article>
-      <article>
-        <h2>Contact</h2>
-        <address>
-          <div><a href="mailto:homam@live.com">homam@live.com</a></div>
-          <div><a href="tel:+31623047612">+31 6 23047612</a></div>
-          <div><a href="https://homam.me">https://homam.me</a></div>
-          <div><a rel="noopener noreferrer" target="_blank" href="https://twitter.com/homam">@homam</a></div>
-        </address>
-      </article>
+      </aside>
+      <section class="posts">
+        <article>
+          <h2>Time Series Visualization using SQL Window Functions</h2>
+          <p>How to get a better time series graph by using window functions comparing to naive DATE_TRUNC. Here I Also
+            explore some techniques for generating realistic-looking datasets.</p><a rel="noopener noreferrer"
+            target="_blank" href="https://dev.to/homam/time-series-visualization-173c">Read the full post</a>
+        </article>
+        <article>
+          <h2>Composability: from Callbacks to Categories in ES6</h2>
+          <p>A tour of abstract constructs for handling asynchronous operations and error handling in JavaScript. We
+            check their similarities and build monads and Kleisli categories.</p><a rel="noopener noreferrer"
+            target="_blank"
+            href="https://medium.com/@homam/composability-from-callbacks-to-categories-in-es6-f3d91e62451e">Read the
+            full post</a>
+        </article>
+        <article>
+          <h2>Reduce</h2>
+          <p>The zen of reduce or fold function as an abstraction over recursion. Check how we can re-interpret all the
+            operations over arrays using reduce and then re-define reduce using the functions that we build up during
+            this process.</p><a rel="noopener noreferrer" target="_blank" href="https://dev.to/homam/reduce-213">Read
+            the full post</a>
+        </article>
+        <article>
+          <h2>Timing asynchronous functions in JavaScript ES6
+          </h2>
+          <p>A simple higher order function to time JavaScript asynchronous functions, which we can use for debugging or
+            logging in production.</p><a rel="noopener noreferrer" target="_blank"
+            href="https://medium.com/@homam/timing-asynchronous-functions-in-javascript-es6-2635ed306377">Read the full
+            post</a>
+        </article>
+        <article>
+          <h2>Pipe
+          </h2>
+          <p>Pipe is a Web-based tool for querying any data source (SQL, MongoDB, ElasticSearch, Redis ...), and
+            analyzing and visualizing the result. The repo has not been updated for a while, but Pipe is well alive and
+            in-use by us. Ping me if you need help setting it up.</p><a rel="noopener noreferrer" target="_blank"
+            href="https://github.com/Pipend/pipe">Read the full post</a>
+        </article>
+      </section>
     </main>
   </div>
-
 </body>
-
 </html>
